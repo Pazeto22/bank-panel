@@ -1,0 +1,17 @@
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-extra-bold: 700;
+
+.fw-l {
+  font-weight: $font-weight-light;
+}
+.fw-n {
+  font-weight: $font-weight-normal;
+}
+.fw-b {
+  font-weight: $font-weight-bold;
+}
+.fw-eb {
+  font-weight: $font-weight-extra-bold;
+}

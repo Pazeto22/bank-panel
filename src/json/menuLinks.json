@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "text": "Início",
+    "link": "#"
+  },
+  {
+    "id": 1,
+    "text": "Sobre",
+    "link": "#solucoes"
+  },
+  {
+    "id": 2,
+    "text": "Tratamentos",
+    "link": "#planos"
+  },
+  {
+    "id": 3,
+    "info": true,
+    "text": "(16) 99418-2193 ",
+    "icon": "phone"
+  }
+]

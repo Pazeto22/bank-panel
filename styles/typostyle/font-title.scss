@@ -1,0 +1,56 @@
+@import "./font-weights.scss";
+
+.title-banner {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: $font-weight-extra-bold;
+
+  @media (min-width: 1151.98px) {
+    font-size: 72px;
+    line-height: 88px;
+  }
+}
+
+.title-h1 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: $font-weight-extra-bold;
+
+  @media (min-width: 1151.98px) {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+.title-h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: $font-weight-extra-bold;
+
+  @media (min-width: 1151.98px) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.title-h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: $font-weight-extra-bold;
+
+  @media (min-width: 1151.98px) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+.title-h4 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: $font-weight-extra-bold;
+
+  @media (min-width: 1151.98px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

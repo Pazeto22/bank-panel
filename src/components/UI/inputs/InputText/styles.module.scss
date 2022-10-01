@@ -1,0 +1,44 @@
+@import "../../../../../styles/colors.scss";
+@import "../../../../../styles/typostyle/font-body-info.scss";
+
+.inputTextWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+.inputTextData {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  border-radius: 16px;
+  padding: 0 1rem;
+  border: 1px solid $white-dark;
+  background-color: $white;
+}
+
+.inputText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 42px;
+  background: none !important;
+  color: $black;
+  font-size: $body-i-size-desk;
+  line-height: $body-i-lh-desk;
+
+  &::-webkit-input-placeholder {
+    color: $grey-light-2;
+  }
+  &::-moz-placeholder {
+    color: $grey-light-2;
+  }
+  &:-ms-input-placeholder {
+    color: $grey-light-2;
+  }
+  &:-moz-placeholder {
+    color: $grey-light-2;
+  }
+}

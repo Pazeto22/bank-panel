@@ -1,0 +1,66 @@
+@import "../colors.scss";
+
+// Primary
+
+.fc-p {
+  color: $primary;
+}
+.fc-pl {
+  color: $primary-light;
+}
+.fc-pd {
+  color: $primary-dark;
+}
+
+// Black
+
+.fc-b {
+  color: $black;
+}
+.fc-bl {
+  color: $black-light;
+}
+
+// White
+
+.fc-w {
+  color: $white;
+}
+.fc-wl {
+  color: $white-dark;
+}
+.fc-wl2 {
+  color: $white-dark-2;
+}
+.fc-d-w {
+  @media (min-width: 1151.98px) {
+    color: $white;
+  }
+}
+.fc-m-w {
+  @media (min-width: 1151.98px) {
+    color: $white;
+  }
+}
+
+// Grey
+
+.fc-g {
+  color: $grey;
+}
+.fc-gl {
+  color: $grey-light;
+}
+.fc-gl2 {
+  color: $grey-light-2;
+}
+.fc-d-g {
+  @media (min-width: 1151.98px) {
+    color: $grey;
+  }
+}
+.fc-m-g {
+  @media (max-width: 1151.98px) {
+    color: $grey;
+  }
+}

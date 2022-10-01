@@ -1,0 +1,41 @@
+@import "./font-weights.scss";
+
+// Mobile
+$body-b-size-mobile: 14px;
+$body-b-lh-mobile: 18px;
+// Desktop
+$body-b-size-desk: 18px;
+$body-b-lh-desk: 22px;
+
+.body-b {
+  font-size: $body-b-size-mobile;
+  line-height: $body-b-lh-mobile;
+  font-weight: $font-weight-normal;
+
+  @media (min-width: 1151.98px) {
+    font-size: $body-b-size-desk;
+    line-height: $body-b-lh-desk;
+  }
+}
+
+.body-bl {
+  font-size: $body-b-size-mobile;
+  line-height: $body-b-lh-mobile;
+  font-weight: $font-weight-light;
+
+  @media (min-width: 1151.98px) {
+    font-size: $body-b-size-desk;
+    line-height: $body-b-lh-desk;
+  }
+}
+
+.body-bb {
+  font-size: $body-b-size-mobile;
+  line-height: $body-b-lh-mobile;
+  font-weight: $font-weight-bold;
+
+  @media (min-width: 1151.98px) {
+    font-size: $body-b-size-desk;
+    line-height: $body-b-lh-desk;
+  }
+}
