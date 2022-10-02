@@ -1,0 +1,58 @@
+@import "../../../../../styles/colors.scss";
+
+.inputCheckboxWrapper {
+  width: fit-content;
+}
+
+.inputCheckboxLabel {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inputCheckbox {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.inputCheckboxCheckmark {
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid $white-dark;
+  height: 16px;
+  width: 16px;
+  background-color: $white;
+}
+
+.inputCheckboxLabel:hover {
+  filter: brightness(90%);
+}
+
+.inputCheckboxCheckmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.inputCheckboxLabel .inputCheckbox:checked ~ .inputCheckboxCheckmark:after {
+  display: block;
+}
+
+.inputCheckboxLabel .inputCheckboxCheckmark:after {
+  width: 5px;
+  left: 0;
+  right: 0;
+  top: -2px;
+  bottom: 0;
+  margin: auto;
+  height: 10px;
+  border: solid #224ef2;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}

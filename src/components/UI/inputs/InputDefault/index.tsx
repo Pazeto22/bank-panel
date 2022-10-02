@@ -1,6 +1,6 @@
 import s from "./styles.module.scss";
 
-interface InputTextProps {
+interface InputDefaultProps {
   label?: string;
   type: string;
   name: string;
@@ -10,7 +10,7 @@ interface InputTextProps {
   helpers?: string;
 }
 
-function InputText({
+function InputDefault({
   label,
   type,
   name,
@@ -18,20 +18,20 @@ function InputText({
   placeholder,
   icon,
   helpers,
-}: InputTextProps) {
+}: InputDefaultProps) {
   return (
-    <div className={`${s.inputTextWrapper} ${helpers}`}>
+    <div className={`${s.inputDefaultWrapper} ${helpers || ""}`}>
       {label && (
         <label htmlFor="loginCardEmail" className="body-i">
           {label}
         </label>
       )}
-      <div className={icon ? s.inputTextData : ""}>
+      <div className={icon ? s.inputDefaultData : ""}>
         {icon && (
           <img src={`/assets/svg/${icon}.svg`} alt={`ícone de ${name}`} />
         )}
         <input
-          className={s.inputText}
+          className={s.inputDefault}
           type={type}
           name={name}
           id={id}
@@ -42,4 +42,4 @@ function InputText({
   );
 }
 
-export default InputText;
+export default InputDefault;

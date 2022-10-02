@@ -1,25 +1,25 @@
 @import "../../../../../styles/colors.scss";
 @import "../../../../../styles/typostyle/font-body-info.scss";
 
-.inputTextWrapper {
+.inputDefaultWrapper {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
   width: 100%;
 }
 
-.inputTextData {
+.inputDefaultData {
   display: grid;
   grid-template-columns: 14px 1fr;
   gap: 0.5rem;
   align-items: center;
   border-radius: 16px;
-  padding: 0 1rem;
   border: 1px solid $white-dark;
+  padding: 0 1rem;
   background-color: $white;
 }
 
-.inputText {
+.inputDefault {
   width: 100%;
   display: flex;
   align-items: center;

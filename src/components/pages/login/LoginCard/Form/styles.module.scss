@@ -1,1 +1,12 @@
-/* The component style is inserted here. */
+@import "../../../../../../styles/colors.scss";
+
+.loginCardForm {
+  width: 320px;
+}
+
+.loginCardFormRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,3 +1,5 @@
+@import "./colors.scss";
+
 .u-none {
   user-select: none;
 }
@@ -20,6 +22,34 @@
   @media (min-width: 1151.98px) {
     display: none !important;
   }
+}
+
+// Buttons
+
+.button-primary {
+  background-color: $primary;
+  color: $white;
+}
+
+.button-primary-gradient {
+  background-color: $primary;
+  background: $primary-gradient;
+  color: $white;
+}
+
+.button-success {
+  background-color: $success;
+  color: $white;
+}
+
+.button-warning {
+  background-color: $warning;
+  color: $black;
+}
+
+.button-error {
+  background-color: $error;
+  color: $white;
 }
 
 // Padding

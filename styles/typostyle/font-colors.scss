@@ -11,6 +11,16 @@
 .fc-pd {
   color: $primary-dark;
 }
+.fc-d-p {
+  @media (min-width: 1151.98px) {
+    color: $primary;
+  }
+}
+.fc-m-p {
+  @media (max-width: 1151.98px) {
+    color: $primary;
+  }
+}
 
 // Black
 
@@ -38,7 +48,7 @@
   }
 }
 .fc-m-w {
-  @media (min-width: 1151.98px) {
+  @media (max-width: 1151.98px) {
     color: $white;
   }
 }

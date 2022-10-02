@@ -1,22 +1,22 @@
-# Landing Page Dentista
+# Painel administrativo banco digital
 
 ###### Em Desenvolvimento
 
 - Protótipo desenvolvido no FIGMA;
-- Protótipo da versão mobile ainda em desenvolvimento;
-- Landing page desenvolvida com React, Next e Typescript. Hospedado na Vercel.
+- Ainda em desenvolvimento;
+- Painel desenvolvido em React, Next e Typescript. Hospedado na Vercel.
 
-**Figma**: https://www.figma.com/file/zFFQ1Oxws1je1fs9qXEtwP/Landing-Page-Dentista
+**Figma**: https://www.figma.com/file/j3C2dNoNzZeiqCm3a6D5SW/Teste-Q2Bank
 
-**Link:** https://dentist-landing-page-u7wp.vercel.app
+**Link:** https://bank-panel.vercel.app
 
 ## Preview
 
-![Preview](https://i.imgur.com/QXvBkBA.jpg "Preview")
+![Preview](https://i.imgur.com/4YiftOq.jpg "Preview")
 
 ## Como rodar
 
 - Clone o repositório
 - Instale as dependências com yarn ou npm
-- Rode "yarn dev" ou "npm dev"
-- Acesse http://localhost:3000/
+- Rode _"yarn dev"_ ou _"npm run dev"_
+- Acesse http://localhost:3000
