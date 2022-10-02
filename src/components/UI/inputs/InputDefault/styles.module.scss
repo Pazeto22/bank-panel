@@ -1,5 +1,6 @@
 @import "../../../../../styles/colors.scss";
 @import "../../../../../styles/typostyle/font-body-info.scss";
+@import "../../../../../styles/typostyle/font-body-text.scss";
 
 .inputDefaultWrapper {
   display: flex;
@@ -26,8 +27,13 @@
   height: 42px;
   background: none !important;
   color: $black;
-  font-size: $body-i-size-desk;
-  line-height: $body-i-lh-desk;
+  font-size: $body-t-size-mobile;
+  line-height: $body-t-lh-mobile;
+
+  @media (min-width: 1151.98px) {
+    font-size: $body-i-size-desk;
+    line-height: $body-i-lh-desk;
+  }
 
   &::-webkit-input-placeholder {
     color: $grey-light-2;

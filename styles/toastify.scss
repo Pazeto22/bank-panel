@@ -1,0 +1,26 @@
+@import "./colors.scss";
+
+:root {
+  --toastify-color-light: #fafafa !important;
+  --toastify-color-dark: #202024 !important;
+  --toastify-color-info: #008fff !important;
+  --toastify-color-success: #17bf5e !important;
+  --toastify-color-warning: #ffdf36 !important;
+  --toastify-color-error: #e84855 !important;
+  --toastify-color-transparent: #fafafa80 !important;
+
+  --toastify-toast-background: #fafafa !important;
+  --toastify-font-family: "Roboto", sans-serif !important;
+
+  --toastify-text-color-light: #676773 !important;
+  --toastify-text-color-dark: #fafafa !important;
+
+  //Used only for colored theme
+  --toastify-text-color-info: #008fff !important;
+  --toastify-text-color-success: #17bf5e !important;
+  --toastify-text-color-warning: #ffdf36 !important;
+  --toastify-text-color-error: #e84855 !important;
+
+  --toastify-spinner-color: #676773 !important;
+  --toastify-spinner-color-empty-area: #d9d9d9 !important;
+}

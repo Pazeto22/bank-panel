@@ -10,10 +10,12 @@ function LoginCard() {
   return (
     <div className={s.loginCardWrapper}>
       <div className={`${s.loginCardSection} ${s.loginCardFormWrapper}`}>
-        <h1 className="title-h1 fc-w">Bem-Vindo</h1>
+        <div className={s.loginCardTitle}>
+          <h1 className="title-h1 fc-w">Bem-Vindo</h1>
+        </div>
         <Form />
       </div>
-      <div className={s.loginCardSection}>
+      <div className={`${s.loginCardSection} ${s.loginCardLottie}`}>
         <Lottie
           animationData={LoginAnimation}
           play

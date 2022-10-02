@@ -2,21 +2,52 @@
 
 .loginCardWrapper {
   overflow: hidden;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   border-radius: 16px;
+  padding-bottom: 3rem;
   width: 100%;
-  height: 512px;
+  height: fit-content;
   background-color: $white;
   box-shadow: 0px 15px 15px -10px rgba(0, 0, 0, 0.08);
+
+  @media (min-width: 1151.98px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    padding: 0;
+    height: 512px;
+  }
 }
 
 .loginCardSection {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
+}
+
+.loginCardLottie {
+  display: none;
+  @media (min-width: 1151.98px) {
+    display: flex;
+  }
+}
+
+.loginCardTitle {
+  width: 100%;
+  height: auto;
+  padding: 3rem 0;
+  background: $primary-gradient;
+  text-align: center;
+
+  @media (min-width: 1151.98px) {
+    width: auto;
+    padding: 0;
+    background: none;
+  }
 }
 
 .loginCardFormWrapper {
@@ -24,6 +55,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  background: $primary-gradient;
+  gap: 3rem;
+  background: $white;
+
+  @media (min-width: 1151.98px) {
+    gap: 2rem;
+    background: $primary-gradient;
+  }
 }
