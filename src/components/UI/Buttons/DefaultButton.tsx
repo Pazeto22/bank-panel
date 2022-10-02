@@ -5,6 +5,7 @@ import { ReactNode } from "react";
 interface DefaultButtonProps {
   children: ReactNode;
   helpers?: string;
+  role?: () => void;
   type?: "submit" | "reset" | "button" | undefined;
   style?:
     | "button-primary"
@@ -19,12 +20,14 @@ interface DefaultButtonProps {
 function DefaultButton({
   children,
   helpers,
+  role,
   type,
   style,
   textButton,
 }: DefaultButtonProps) {
   return (
     <button
+      onClick={role}
       type={type || "button"}
       className={`${textButton ? s.buttonText : s.button} ${helpers || ""} ${
         style || ""
