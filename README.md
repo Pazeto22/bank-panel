@@ -6,7 +6,7 @@
 - Ainda em desenvolvimento;
 - Painel desenvolvido em React, Next e Typescript. Hospedado na Vercel.
 
-**Figma**: https://www.figma.com/file/j3C2dNoNzZeiqCm3a6D5SW/Teste-Q2Bank
+**Figma**: https://www.figma.com/file/j3C2dNoNzZeiqCm3a6D5SW/Painel-Banco-Digital
 
 **Link:** https://bank-panel.vercel.app
 

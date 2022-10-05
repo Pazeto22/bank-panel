@@ -1,0 +1,52 @@
+@import "../../../styles/colors.scss";
+
+$cardHeaderPadding: 1rem;
+
+.cardHeaderWrapper {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid $white-dark;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: calc(32px + $cardHeaderPadding);
+
+  button {
+    cursor: pointer;
+    background: none;
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+.cardHeaderLogo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  height: 32px;
+  width: auto;
+}
+
+.cardHeaderUser {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cardHeaderUserImg {
+  overflow: hidden;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
