@@ -1,0 +1,279 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Guilherme Silva",
+      "document": "904.289.970-07",
+      "bank": {
+        "bankName": "237 - Banco Bradesco S.A.",
+        "code": "237",
+        "agency": "0001",
+        "account": "1167115-2"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dimitry Silva",
+      "document": "025.666.670-98",
+      "bank": {
+        "bankName": "033 - Banco Santander Brasil S.A.",
+        "code": "033",
+        "agency": "3634",
+        "account": "35934064-0"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Juan Silva",
+      "document": "092.607.860-70",
+      "bank": {
+        "bankName": "001 - Banco do Brasil S.A.",
+        "code": "001",
+        "agency": "2086",
+        "account": "24206-3"
+      }
+    }
+  ]
+}

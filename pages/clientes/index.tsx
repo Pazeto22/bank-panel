@@ -1,3 +1,5 @@
+import { ClientsDataProvider } from "context/ClientsData";
+
 // Cards
 import Card from "components/Card";
 import CardTitle from "components/CardTitle";
@@ -5,7 +7,7 @@ import CardTitle from "components/CardTitle";
 // Componentes
 import InputSearch from "components/UI/inputs/InputSearch";
 import IconButton from "components/UI/Buttons/IconButton";
-import Table from "components/Table";
+import ClientsTable from "components/ClientsTable";
 
 // Ícones
 import RefreshIcon from "../../public/assets/svg/refresh.svg";
@@ -23,7 +25,19 @@ function Clients() {
           <RefreshIcon />
         </IconButton>
       </CardTitle>
-      <Table></Table>
+      <ClientsDataProvider>
+        <ClientsTable
+          headers={[
+            "ID",
+            "Nome",
+            "Documento",
+            "Banco",
+            "Agência",
+            "Conta",
+            "Código",
+          ]}
+        />
+      </ClientsDataProvider>
     </Card>
   );
 }
