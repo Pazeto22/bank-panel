@@ -1,3 +1,4 @@
+import { ChangeEventHandler } from "react";
 import s from "./styles.module.scss";
 
 interface InputDefaultProps {
@@ -8,6 +9,7 @@ interface InputDefaultProps {
   placeholder?: string;
   icon?: string;
   helpers?: string;
+  change?: ChangeEventHandler<HTMLInputElement>;
 }
 
 function InputDefault({
@@ -18,6 +20,7 @@ function InputDefault({
   placeholder,
   icon,
   helpers,
+  change,
 }: InputDefaultProps) {
   return (
     <div className={`${s.inputDefaultWrapper} ${helpers || ""}`}>
@@ -36,6 +39,7 @@ function InputDefault({
           name={name}
           id={id}
           placeholder={placeholder}
+          onChange={change}
         />
       </div>
     </div>

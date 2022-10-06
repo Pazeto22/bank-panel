@@ -1,4 +1,5 @@
 import { AppProps } from "next/app";
+import { AuthDataProvider } from "context/AuthData";
 // Dynamic para desativar SSR durante desenvolvimento
 import dynamic from "next/dynamic";
 import React from "react";
@@ -13,9 +14,9 @@ import "@fontsource/roboto/700.css";
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <AuthDataProvider>
       <Component {...pageProps} />
-    </>
+    </AuthDataProvider>
   );
 }
 

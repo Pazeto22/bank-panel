@@ -7,7 +7,7 @@ import CardTitle from "components/CardTitle";
 // Componentes
 import InputSearch from "components/UI/inputs/InputSearch";
 import IconButton from "components/UI/Buttons/IconButton";
-import ClientsTable from "components/ClientsTable";
+import ClientsTable from "components/pages/clientes/ClientsTable";
 
 // Ícones
 import RefreshIcon from "../../public/assets/svg/refresh.svg";

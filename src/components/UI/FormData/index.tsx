@@ -1,10 +1,10 @@
 import s from "./styles.module.scss";
 
-import { ReactNode } from "react";
+import { FormEventHandler, ReactNode } from "react";
 
 interface FormDataProps {
   children: ReactNode;
-  submit?: () => void;
+  submit?: FormEventHandler<HTMLFormElement>;
 }
 
 function FormData({ children, submit }: FormDataProps) {

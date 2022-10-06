@@ -21,20 +21,26 @@ $cardHeaderPadding: 1rem;
 }
 
 .cardHeaderLogo {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin: auto;
   height: 32px;
-  width: auto;
+  width: fit-content;
+
+  @media (min-width: 1151.98px) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+  }
 }
 
 .cardHeaderUser {
   cursor: pointer;
-  display: flex;
+  display: none;
   align-items: center;
   gap: 1rem;
+  @media (min-width: 1151.98px) {
+    display: flex;
+  }
 }
 
 .cardHeaderUserImg {

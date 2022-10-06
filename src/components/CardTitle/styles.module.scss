@@ -1,8 +1,23 @@
 .cardTitleWrapper {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
+
+  span {
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 1151.98px) {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    span {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .cardTitleChildren {
@@ -10,8 +25,13 @@
 }
 
 .cardTitleChildrenContent {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 42px;
   gap: 1rem;
   width: 100%;
+
+  @media (min-width: 1151.98px) {
+    display: flex;
+    flex-direction: row;
+  }
 }
