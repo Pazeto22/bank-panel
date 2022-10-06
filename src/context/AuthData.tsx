@@ -31,12 +31,12 @@ export const AuthDataProvider = ({ children }: AuthDataProps) => {
       remember: window.localStorage.getItem("authRemember"),
     };
     if (auth.token) {
-      if (Router.pathname === "/login") {
+      if (Router.pathname === "/Login") {
         Router.push("/clientes");
       }
     } else {
       console.log("4");
-      Router.push("/login");
+      Router.push("/Login");
       authFail();
       authTip();
     }
