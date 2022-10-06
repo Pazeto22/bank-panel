@@ -1,7 +1,7 @@
 import api from "config/api";
 import { useEffect, useState } from "react";
 
-import { ClientsDataContext, useClientsData } from "context/ClientsData";
+import { useClientsData } from "context/ClientsData";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
