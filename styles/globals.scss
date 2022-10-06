@@ -26,6 +26,21 @@ label {
   user-select: none;
 }
 
+input {
+  &::-webkit-input-placeholder {
+    user-select: none;
+  }
+  &::-moz-placeholder {
+    user-select: none;
+  }
+  &:-ms-input-placeholder {
+    user-select: none;
+  }
+  &:-moz-placeholder {
+    user-select: none;
+  }
+}
+
 a {
   text-decoration: none;
 }

@@ -22,7 +22,7 @@ function InputDefault({
   return (
     <div className={`${s.inputDefaultWrapper} ${helpers || ""}`}>
       {label && (
-        <label htmlFor="loginCardEmail" className="body-i">
+        <label htmlFor={id} className="body-i">
           {label}
         </label>
       )}

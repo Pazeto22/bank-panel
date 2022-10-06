@@ -1,0 +1,17 @@
+.cardTitleWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.cardTitleChildren {
+  justify-content: space-between;
+}
+
+.cardTitleChildrenContent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
