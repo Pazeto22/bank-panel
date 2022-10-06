@@ -4,7 +4,6 @@ import { ReactNode } from "react";
 
 import Container from "components/UI/Container";
 import CardHeader from "components/CardHeader";
-import CardTitle from "components/CardTitle";
 
 interface CardProps {
   children: ReactNode;
